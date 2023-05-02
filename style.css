@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+/* introdução do currículo */
+
+h1,
+h2,
+p,
+ul > li {
+  text-align: center;
+}
+
+h1 {
+  color: #324376;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.page-links a {
+  margin-top: 200px;
+}
+
+.image-radius {
+  width: 150px;
+  margin: 10px 0;
+  border-radius: 50%;
+}
+
+a {
+  color: #324376;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 900;
+}
+
+a:visited {
+  color: #324376;
+}
+
+a:hover {
+  color: #0e7c7b;
+}
+
+ul li {
+  margin: 10px;
+  list-style: none;
+}
+
+.my-experience h1,
+.my-experience h2 {
+  color: #324376;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+table,
+td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+  padding: 5px;
+  padding: 10px;
+}
+
+table th {
+  font-weight: 400;
+  background-color: #324376;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #324376;
+  padding: 13px;
+  color: #fffdfd;
+  width: 100%;
+}
+
+/* hobbies */
+
+.hobby {
+  margin-top: 40px;
+}
+
+article.h-card {
+  color:#fff;
+  width: 500px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #0e7c7b;
+  transition: all 0.3s ease-in-out;
+}
+
+article.h-card:hover {
+  color:#fff;
+  background-color: #033f3f;
+  height: 555px;
+  width: 505px;
+
+}
+
+article.h-card img {
+  width: 400px;
+}
+
+article.h-card p {
+  margin-top: 10px;
+  font-size: 14px
+}
+
+.hobbie-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/*contato*/
+
+main form {
+  color: #324376;
+  font-weight: 900;
+  padding: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+label {
+  padding: 10px;
+  display: block;
+  font-size: 24px;
+}
+
+input,
+select,
+textarea {
+  padding: 18px;
+  border-radius: 8px;
+  width: 400px;
+  border: none;
+  background-color: #cccccc91;
+}
+
+input.form-button {
+  background-color: #0e7c7b;
+  color: white;
+  margin-top: 20px;
+}
